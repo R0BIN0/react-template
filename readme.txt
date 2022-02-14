@@ -1,8 +1,6 @@
-{
-  "name": "template",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
+    COMMANDE : npx eslint --init   
+    
+    "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -17,30 +15,7 @@
     "redux-thunk": "^2.4.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+
   "devDependencies": {
     "eslint": "^8.9.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -50,4 +25,3 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.5.1"
   }
-}
