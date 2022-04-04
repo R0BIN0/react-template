@@ -15,9 +15,9 @@
   "rules": {
     "react/react-in-jsx-scope": "off",
     "no-unused-vars": "warn",
-    "indent": ["error", 2],
+    // "indent": ["error", 2],
     "linebreak-style": [0, "error", "windows"],
-
+    "react/prop-types": 0,
     "quotes": ["error", "double"],
     "semi": ["error", "always"]
   }
